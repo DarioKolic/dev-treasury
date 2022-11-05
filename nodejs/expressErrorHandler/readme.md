@@ -42,25 +42,25 @@ NOTE: Must be last middleware registered
 ### Typescript
 ```
 app.use((err: ExpressErrorHandler, req: IRequest, res: Response, next: NextFunction) => {
-        console.error(err); // Or your own logger
+    console.error(err); // Or your own logger
 
-        res
-            .status(err.httpStatus)
-            .json(getStatusResponse(err.httpStatus, err.message))
+    res
+        .status(err.httpStatus)
+        .json(getStatusResponse(err.httpStatus, err.message))
 
-        return next();
-    })
+    return next();
+})
 ```
 
 ### Javascript
 ```
 app.use((err, req, res, next) => {
-        console.error(err) // Or your own logger
+    console.error(err) // Or your own logger
 
-        res
-            .status(err.httpStatus)
-            .json(getStatusResponse(err.httpStatus, err.message))
+    res
+        .status(err.httpStatus)
+        .json(getStatusResponse(err.httpStatus, err.message))
 
-        return next()
-    })
+    return next()
+})
 ```
