@@ -1,8 +1,8 @@
 ### Is Alpha Numeric:
 
 Check if string contains:
-    - numeric values (numbers from 0 to 9)
-    - letters (upper case & lower case)
+- numeric values (numbers from 0 to 9)
+- letters (upper case & lower case)
 
 ```
 const code = string.charCodeAt(index)
