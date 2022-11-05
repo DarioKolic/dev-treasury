@@ -6,12 +6,12 @@ This is a collection of random snippets that will make your life easier as it wi
 
 
 
-## How to contribute
+### How to contribute
 
-Create a folder with name describing what it contains e.g. `camelCaseCollection`.
+- Create a folder with name describing what it contains e.g. `camelCaseCollection`.
 
-The folder should contain `readme.md` with quick copy access to file contents
+- The folder should contain `readme.md` with quick copy access to file contents
 
-Create a branch describing what you are contributing e.g. `http-status-codes`
+- Create a branch describing what you are contributing e.g. `http-status-codes`
 
-Open a PR and assign a reviewer
+- Open a PR and assign a reviewer
