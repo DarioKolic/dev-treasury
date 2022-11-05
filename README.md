@@ -4,7 +4,7 @@ Pick and choose what you need and thank me later.
 
 This is a collection of random snippets that will make your life easier as it will mine.
 
-# How to contribute
+## How to contribute
 
 Create a folder with name describing what it contains e.g. `camelCaseCollection`.
 
